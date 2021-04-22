@@ -1,0 +1,1 @@
+class Solution:    def decode(self, encoded, first):        decoded = [0 for i in range(0,len(encoded)+1)]        decoded[0] = first                for i in range(1,len(encoded)+1):            decoded[i] = decoded[i-1]^encoded[i-1]                return decoded;                s = Solution()encoded = [1,2,3]first = 1ans = s.decode(encoded,first)        
