@@ -6,3 +6,10 @@ Created on Fri Jul  9 17:43:39 2021
 """
 
 
+ class Solution:
+    def maxProfit(self, prices):
+        
+
+        
+        
+        
